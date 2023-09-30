@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 10px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.contenedor{
+    display: flex;
+}
+
+table {
+    border-collapse: collapse;
+    margin-right: 10px;
+}
+
+.matriz-container h1{
+    align-items: center;
+    justify-content: center;
+}
+
+.matriz-container table{
+    width: 93%;
+}
+
+td {
+    border: 1px solid #ccc;
+    padding: 6px;
+}
+
+.matriz-container{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.resultados-fila{
+    margin-top: 60px ;
+}
+
+.resultados-columna{
+    flex: 1;
+    padding: 10px;
+}
+
+.resultados-columna table{
+    flex: 1;
+    padding: 10px;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+
